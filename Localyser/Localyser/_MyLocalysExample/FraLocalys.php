@@ -30,4 +30,14 @@ class FraLocalys extends BaseLocalys
         return self::$months[(int)$n];
     }
 
+    /**
+     *
+     * 1 juillet 2017
+     */
+    public function getLongDate($timestamp)
+    {
+        $s = date("d __ Y", $timestamp);
+        return str_replace('__', $this->getMonth(date("m", $timestamp)), $s);
+    }
+
 }

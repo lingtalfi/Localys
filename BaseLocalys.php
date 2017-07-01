@@ -22,4 +22,9 @@ abstract class BaseLocalys implements LocalysInterface
     {
 
     }
+
+    public function getLongDate($timestamp)
+    {
+
+    }
 }
