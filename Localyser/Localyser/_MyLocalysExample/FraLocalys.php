@@ -40,6 +40,7 @@ class FraLocalys extends BaseLocalys
         return str_replace('__', $this->getMonth(date("m", $timestamp)), $s);
     }
 
+
     /**
      *
      *      - du 1 juillet 2017 au 6 août 2018
@@ -51,12 +52,18 @@ class FraLocalys extends BaseLocalys
     {
         $ds = date("Y-m-d", $timestampStart);
         $de = date("Y-m-d", $timestampEnd);
-        $yearStart = $ds[0];
-        $yearEnd = $ds[1];
-        $monthStart = sprintf('%02s', $ds[1]);
-        $monthEnd = sprintf('%02s', $de[1]);
-        $dayStart = sprintf('%02s', $ds[2]);
-        $dayEnd = sprintf('%02s', $de[2]);
+        $ps = explode('-', $ds);
+        $pe = explode('-', $de);
+        $yearStart = $ps[0];
+        $yearEnd = $pe[0];
+        $monthStart = sprintf('%02s', $ps[1]);
+        $monthEnd = sprintf('%02s', $pe[1]);
+        $dayStart = sprintf('%02s', $ps[2]);
+        $dayEnd = sprintf('%02s', $pe[2]);
+
+
+        $monthStart = $this->getMonth($monthStart);
+        $monthEnd = $this->getMonth($monthEnd);
 
 
         if ($yearEnd !== $yearStart) {
