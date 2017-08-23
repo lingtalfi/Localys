@@ -32,4 +32,11 @@ abstract class BaseLocalys implements LocalysInterface
     {
 
     }
+
+    public function getGenderAbbreviation($gender)
+    {
+
+    }
+
+
 }

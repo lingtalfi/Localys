@@ -81,4 +81,16 @@ interface LocalysInterface
      * @return string, the long date range sentence
      */
     public function getLongDateRange($timestampStart, $timestampEnd);
+
+
+    /**
+     *
+     * Returns the gender abbreviation for a given gender.
+     *
+     * @param $gender
+     *      - 1: male, return Mr in english
+     *      - 2: female, returns Mrs in english
+     * @return string, the abbreviated version of the given gender
+     */
+    public function getGenderAbbreviation($gender);
 }

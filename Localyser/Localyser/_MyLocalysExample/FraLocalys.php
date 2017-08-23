@@ -81,4 +81,18 @@ class FraLocalys extends BaseLocalys
         }
     }
 
+    public function getGenderAbbreviation($gender)
+    {
+        $gender = (string)$gender;
+        switch ($gender) {
+            case '2':
+                return 'Me';
+                break;
+            default:
+                return 'M';
+                break;
+        }
+    }
+
+
 }
