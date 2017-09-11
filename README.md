@@ -83,6 +83,11 @@ only the used bits?
 History Log
 ------------------
     
+- 1.4.0 -- 2017-09-11
+
+    - add LocalysInterface.getDayNameLong method
+    - add LocalysInterface.getDayNameAbbr method
+    
 - 1.3.0 -- 2017-08-23
 
     - add LocalysInterface.getGenderAbbreviation method

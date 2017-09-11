@@ -93,4 +93,39 @@ interface LocalysInterface
      * @return string, the abbreviated version of the given gender
      */
     public function getGenderAbbreviation($gender);
+
+
+
+    /**
+     * @return string, the long name of the day, all in lowercase, for the given number.
+     *          In english:
+     *              - 1: monday
+     *              - 2: tuesday
+     *              - 3: wednesday
+     *              - 4: thursday
+     *              - 5: friday
+     *              - 6: saturday
+     *              - 7: sunday
+     *
+     * Note: dayNumber is based on php date("N") option.
+     *
+     */
+    public function getDayNameLong($dayNumber);
+
+
+    /**
+     * @return string, the abbreviated name of the day (usually 3 letters), all in lowercase, for the given number.
+     *          In english:
+     *              - 1: mon
+     *              - 2: tue
+     *              - 3: wed
+     *              - 4: thu
+     *              - 5: fri
+     *              - 6: sat
+     *              - 7: sun
+     *
+     * Note: dayNumber is based on php date("N") option.
+     *
+     */
+    public function getDayNameAbbr($dayNumber);
 }

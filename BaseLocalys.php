@@ -38,5 +38,13 @@ abstract class BaseLocalys implements LocalysInterface
 
     }
 
+    public function getDayNameLong($dayNumber)
+    {
 
+    }
+
+    public function getDayNameAbbr($dayNumber)
+    {
+
+    }
 }

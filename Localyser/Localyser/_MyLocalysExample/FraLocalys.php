@@ -95,4 +95,63 @@ class FraLocalys extends BaseLocalys
     }
 
 
+    public function getDayNameLong($dayNumber)
+    {
+        $dayNumber = (string)$dayNumber;
+        switch ($dayNumber) {
+            case '1':
+                return 'lundi';
+                break;
+            case '2':
+                return 'mardi';
+                break;
+            case '3':
+                return 'mercredi';
+                break;
+            case '4':
+                return 'jeudi';
+                break;
+            case '5':
+                return 'vendredi';
+                break;
+            case '6':
+                return 'samedi';
+                break;
+            case '7':
+                return 'dimanche';
+                break;
+        }
+    }
+
+
+
+    public function getDayNameAbbr($dayNumber)
+    {
+        $dayNumber = (string)$dayNumber;
+        switch ($dayNumber) {
+            case '1':
+                return 'lun';
+                break;
+            case '2':
+                return 'mar';
+                break;
+            case '3':
+                return 'mer';
+                break;
+            case '4':
+                return 'jeu';
+                break;
+            case '5':
+                return 'ven';
+                break;
+            case '6':
+                return 'sam';
+                break;
+            case '7':
+                return 'dim';
+                break;
+        }
+    }
+
+
 }
