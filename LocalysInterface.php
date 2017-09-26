@@ -38,6 +38,13 @@ interface LocalysInterface
      */
     public function getLongDate($timestamp);
 
+    /**
+     * Like getLongDate, but also adds the name of the day.
+     * Example of longer date in french:
+     *          mardi 26 septembre 2017
+     */
+    public function getLongerDate($timestamp);
+
 
     /**
      *

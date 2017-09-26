@@ -83,6 +83,10 @@ only the used bits?
 History Log
 ------------------
     
+- 1.5.0 -- 2017-09-26
+
+    - add LocalysInterface.getLongerDate method
+    
 - 1.4.0 -- 2017-09-11
 
     - add LocalysInterface.getDayNameLong method

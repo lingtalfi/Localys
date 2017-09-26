@@ -40,6 +40,16 @@ class FraLocalys extends BaseLocalys
         return str_replace('__', $this->getMonth(date("m", $timestamp)), $s);
     }
 
+    /**
+     *
+     * mardi 1 juillet 2017
+     */
+    public function getLongerDate($timestamp)
+    {
+        $s = date("d __ Y", $timestamp);
+        $dayName = $this->getDayNameLong(date('N', $timestamp));
+        return $dayName . " " . str_replace('__', $this->getMonth(date("m", $timestamp)), $s);
+    }
 
     /**
      *
@@ -122,7 +132,6 @@ class FraLocalys extends BaseLocalys
                 break;
         }
     }
-
 
 
     public function getDayNameAbbr($dayNumber)

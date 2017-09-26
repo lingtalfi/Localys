@@ -28,6 +28,11 @@ abstract class BaseLocalys implements LocalysInterface
 
     }
 
+    public function getLongerDate($timestamp)
+    {
+
+    }
+
     public function getLongDateRange($timestampStart, $timestampEnd)
     {
 
