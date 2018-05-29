@@ -83,6 +83,10 @@ only the used bits?
 History Log
 ------------------
     
+- 1.8.0 -- 2018-05-29
+
+    - add LocalysFrenchHelper class
+
 - 1.7.0 -- 2018-05-04
 
     - add LocalysInterface.getLongDateWithTime method
