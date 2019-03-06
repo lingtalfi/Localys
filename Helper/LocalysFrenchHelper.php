@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Localys\Helper;
+namespace Ling\Localys\Helper;
 
 class LocalysFrenchHelper
 {

@@ -17,7 +17,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import Localys
+uni import Ling/Localys
 ```
 
 Or just download it and place it where you want otherwise.
@@ -31,7 +31,7 @@ How to
 ```php
 <?php
 
-use Localys\Localyser\Localyser;
+use Ling\Localys\Localyser\Localyser;
 
 // your autoloader here...
 

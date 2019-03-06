@@ -4,8 +4,8 @@
 namespace MyLocalys;
 
 
-use Bat\DateTool;
-use Localys\BaseLocalys;
+use Ling\Bat\DateTool;
+use Ling\Localys\BaseLocalys;
 
 class FraLocalys extends BaseLocalys
 {

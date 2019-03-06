@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Localys\Localyser;
+namespace Ling\Localys\Localyser;
 
-use Localys\Exception\LocalysException;
-use Localys\LocalysInterface;
+use Ling\Localys\Exception\LocalysException;
+use Ling\Localys\LocalysInterface;
 
 
 /**

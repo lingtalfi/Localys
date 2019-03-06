@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Localys\Exception;
+namespace Ling\Localys\Exception;
 
 
 class LocalysException extends \Exception
